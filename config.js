@@ -1,7 +1,7 @@
 
 module.exports = {
     "registercommands" : false,
-     "token": "ODc0MzM4NTExNDY0MDQ2NjIy.YRFhMQ.HXL3mA8RQ6ljBNxXQQ8VKYmRN8k",
+     "token": "ODc5NjQ3MzY1MjA2Nzg2MDc4.YSSxcg.mahFY3IvFGB8yfhQXOnnac2QhD0",
     "imageapi": "81ec44aee6ccbb692dabd2eb0e1454b7f0c5ef1dd805a939a291127eb26b0f5af5bb4a94f095bceade9417c25292e746504e378f2d0f3aa2864c3d775c32e76a",
     "ownerID": ["720632216236851260", "780029934163722280"],
 "prefix": ".",
@@ -16,7 +16,7 @@ module.exports = {
 "api": "AIzaSyCX8Af4p3kAJpjn4189RV2Z8hvMFAMbKoY",
 "youtubeAPI": "AIzaSyCX8Af4p3kAJpjn4189RV2Z8hvMFAMbKoY",
 mainprefix: ".",
-"owner": "G U D B O Y",
+"owner": "MrRobot , famNechir404",
 "mongourl": "mongodb+srv://bot-list-lol:SzRpE6eXNegtLRvs@cluster0.jme3y.mongodb.net/nothingxd?retryWrites=true&w=majority",
 "secret": "TKDHwzyl2iieCPgq9mp4O5gttwqEOm1c",
  "dashboardURL": "https://dyno-clone.dhvitop.repl.co",
