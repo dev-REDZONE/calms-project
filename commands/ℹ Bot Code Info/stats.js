@@ -31,13 +31,15 @@ module.exports = {
         false
       )
       .setImage(``)
-      .addField(`Servers:`, `${client.guilds.cache.size}`, false)
-      .addField(`Users:`, `${client.users.cache.size}`, false)
-      .addField(`Channels:`, `${client.channels.cache.size}`, false)
-      .addField(`Made With:`, `Node.js V12 `, false)
-      .addField(`Creators:`, `MrRobot#7265 | @famN e c h i R#3980 `, false)
-      .addField(`Prefix: `, `${prefix}`, false)
-      .addField(`Uptime:`, uptime.join(", "), false)
+      .addField(`• Servers Count:`, `${client.guilds.cache.size}`, false)
+      .addField(`• Users Count:`, `${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}`, false)
+      .addField(`• Channels Count:`, `${client.channels.cache.size}`, false)
+      .addField(`• Voice Connections:`, `${client.voice.connections.size}`, false)
+      .addField(`• My Links:`, `[Invite](https://discord.com/api/oauth2/authorize?client_id=879647365206786078&permissions=8&scope=bot) - [Support](https://discord.gg/Xz2EQ7nVJx)`, false)
+      .addField(`• Made With:`, `Node.js V12`, false)
+      .addField(`• Creators:`, `MrRobot#7562 | famN e c h i R404#3980`, false)
+      .addField(`• Prefix : `, `${prefix}`, false)
+      .addField(`• Uptime:`, uptime.join(", "), false)
     message.channel.send(embed);
   }
 };
