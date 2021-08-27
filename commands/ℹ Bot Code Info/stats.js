@@ -26,20 +26,18 @@ module.exports = {
       .setTitle(`${client.user.username} stats`)
       .setThumbnail(client.user.displayAvatarURL())
       .addField(
-        `📂Memory Usage:`,
+        `Memory Usage:`,
         (process.memoryUsage().rss / 1024 / 1024).toFixed(2) + "MB",
         false
       )
-      .setImage(`https://voidbots.net/api/embed/${client.user.id}`)
-      .addField(`🏘Servers Count:`, `${client.guilds.cache.size}`, false)
-      .addField(`👥Users Count:`, `${client.users.cache.size}`, false)
-      .addField(`Channels Count:`, `${client.channels.cache.size}`, false)
-      .addField(`Shards:`, `1`, false)
-      .addField(`🗓 Creation Date -`, `6th February 2021`, false)
-      .addField(`Made With :`, `Node.js V12 And SQ Lite DataBase And Your Love`, false)
-      .addField(`:tools: Developers of This Bot -`, `Dhvit And E-E-3`, false)
-      .addField(`⚙➡Prefix : `, `${prefix}`, false)
-      .addField(`:chart_with_upwards_trend:Uptime:`, uptime.join(", "), false)
+      .setImage(``)
+      .addField(`Servers:`, `${client.guilds.cache.size}`, false)
+      .addField(`Users:`, `${client.users.cache.size}`, false)
+      .addField(`Channels:`, `${client.channels.cache.size}`, false)
+      .addField(`Made With:`, `Node.js V12 `, false)
+      .addField(`Creators:`, `MrRobot#7265 | @famN e c h i R#3980 `, false)
+      .addField(`Prefix: `, `${prefix}`, false)
+      .addField(`Uptime:`, uptime.join(", "), false)
     message.channel.send(embed);
   }
 };
