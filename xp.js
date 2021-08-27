@@ -48,21 +48,13 @@ mongoose.connect(config.mongourl,
 
 client.on('ready', () => {
    var arrayOfStatus = [
-        `${client.users.cache.size} users`,//change this with your status
         `.help for my help!`,//change this with your status
-        `${client.guilds.cache.size} Servers!!`,
-        `https://www.dumb-dsc.tk/`,
-        `waiting for verification ☹️`,
-        `${db.fetch(`status`)}`
+        `${client.guilds.cache.size} Servers`
     ];
      setInterval(() => {
         var arrayOfStatus = [
-        `${client.users.cache.size} users`,//change this with your status
         `.help for my help!`,//change this with your status
-        `${client.guilds.cache.size} Servers!!`,
-        `https://www.dumb-dsc.tk/`,
-        `waiting for verification ☹️`,
-        `${db.fetch(`status`)}`
+        `${client.guilds.cache.size} Servers!!`
     ];
     }, 60000)
   
