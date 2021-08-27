@@ -52,16 +52,11 @@ module.exports = {
    let commandscount = "214";
 
       const embed = new MessageEmbed()
-        .setTitle(`📬 Need help? Here are all of my commands:\n Use \`${prefix}help\` followed by a command name to get more additional information on a command. For example: \`${prefix}help ban\`.`)
-        .addField("🛠️ Moderation", `\`announce, ban, color, hide, kick, lock, maintainence, nuke, prune, purge, say, sendembed, serverlock, serverunlock, set, slowmode, stealemoji, unban, unhide, unlock, vcid, voicedeafen, voicekick, voicemove, voicemute, voiceundeaf, voiceunmute, warn, warns\``)
-        .addField("🌄 Image", `\`3000yr, approved, batslap, beautiful, brazzers, burn, cat, challenger, cuddle, dict, distort, dog, ddungeon, facechange, fire, flatearth, foxgirl, gay, hug, kiss, love, magik, meme, qrcode, randomav, rip, scary, slap, triggered, tickle, tweet, vs, wanted\``)
+        .addField("🛠️ Moderation", `\`announce, ban, color, hide, kick, lock, maintainence, nuke, prune, purge, say, sendembed, serverlock, serverunlock, set, slowmode, stealemoji, unban, unhide, unlock, vcid, warn, warns\``)
         .addField("😀 Fun", `\`afk, animesearch, ascii, baka, beep, dumb, calc, cattext, dice, eightball, flipcoin, fliptext, hack, iq, joke, kill, messages, poke, poll, ratewaifu, rps, sneeze, waifu, youtube, zalgo\``)
         .addField("🎶 Music", `\`24/7, bassboost, dc, connect, lyrics, np, pause, play, queue, resume, shuffle, skip, stop, volume\``)
         .addField("🎴 Utility", `\`avatar, covid, id, members, roleid, github, servericon, serverinfo, time, info, weather\``)
-        .addField("✒️ Text", `\`textkurdish, textarabic, textenglish, textturkish, textpersian\``)
-        .addField("🎁 Giveway", `\`edit, list, end, reroll, start, create, cancel\``)
         .addField("ℹ️ General Info", `\`help, invite, ping, serverstats\``)
-        .addField("⚙️ Logs", `\`logs-ticket, set-logs, remove-logs\``)
         .addField("🎮 Games", `\`csgo, poke, slots, tictactoe\``)
         .addField("🤖 Bot Info", `\`servers, stats, uptime\``)
         .setFooter(
@@ -70,7 +65,7 @@ module.exports = {
         )
         .setTimestamp()
         .setColor(roleColor);
-      return message.channel.send(embed);
+      return message.channel.send(`<@${message.author.id}>`, embed);
     } else {
       const command =
         client.commands.get(args[0].toLowerCase()) ||
