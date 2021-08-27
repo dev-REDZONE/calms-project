@@ -35,7 +35,7 @@ module.exports = {
       .addField(`• Users Count:`, `${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}`, false)
       .addField(`• Channels Count:`, `${client.channels.cache.size}`, false)
       .addField(`• Voice Connections:`, `${client.voice.connections.size}`, false)
-      .addField(`• My Links:`, `[Invite](https://discord.com/api/oauth2/authorize?client_id=879647365206786078&permissions=8&scope=bot) - [Support](https://discord.gg/Xz2EQ7nVJx)`, false)
+      .addField(`• My Links:`, `[Invite](https://discord.com/api/oauth2/authorize?client_id=879647365206786078&permissions=8&scope=bot) - [Support](https://discord.gg/a8CZbDpFYs)`, false)
       .addField(`• Made With:`, `Node.js V12`, false)
       .addField(`• Creators:`, `MrRobot#7562 | famN e c h i R404#3980`, false)
       .addField(`• Prefix : `, `${prefix}`, false)
