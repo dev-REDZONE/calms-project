@@ -13,8 +13,8 @@ module.exports = {
     },
     "bid": "874338511464046622",
 
-"api": "AIzaSyCX8Af4p3kAJpjn4189RV2Z8hvMFAMbKoY",
-"youtubeAPI": "AIzaSyCX8Af4p3kAJpjn4189RV2Z8hvMFAMbKoY",
+"api": "AIzaSyD5_NvzoI3zpkgnfoknfVhHS1I5GbNfiu4",
+"youtubeAPI": "AIzaSyD5_NvzoI3zpkgnfoknfVhHS1I5GbNfiu4",
 mainprefix: ".",
 "owner": "MrRobot , famNechir404",
 "mongourl": "mongodb+srv://bot-list-lol:SzRpE6eXNegtLRvs@cluster0.jme3y.mongodb.net/nothingxd?retryWrites=true&w=majority",
