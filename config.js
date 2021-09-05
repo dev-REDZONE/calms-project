@@ -4,7 +4,7 @@ module.exports = {
      "token": "ODE5NjE4MzMxMTExMzI1NzA2.YEpPDQ.6xuB8SPBigLhcYJcRlFsXmMcrOo",
     "imageapi": "81ec44aee6ccbb692dabd2eb0e1454b7f0c5ef1dd805a939a291127eb26b0f5af5bb4a94f095bceade9417c25292e746504e378f2d0f3aa2864c3d775c32e76a",
     "ownerID": ["767108799785598977", "408310632052686848"],
-"prefix": ".",
+"prefix": "=",
 "chat": {
         "url": "http://api.brainshop.ai/get?bid=155777&key=O0Rla6COZJ8XSGPJ&uid=[uid]&msg=[msg]",
         "bid": "155777",
@@ -15,7 +15,7 @@ module.exports = {
 
 "api": "AIzaSyD5_NvzoI3zpkgnfoknfVhHS1I5GbNfiu4",
 "youtubeAPI": "AIzaSyD5_NvzoI3zpkgnfoknfVhHS1I5GbNfiu4",
-mainprefix: ".",
+mainprefix: "=",
 "owner": "<@767108799785598977>",
 "mongourl": "mongodb+srv://bot-list-lol:SzRpE6eXNegtLRvs@cluster0.jme3y.mongodb.net/nothingxd?retryWrites=true&w=majority",
 "secret": "TKDHwzyl2iieCPgq9mp4O5gttwqEOm1c",
