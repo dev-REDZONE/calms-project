@@ -1,6 +1,6 @@
 module.exports = {
   name: "skip",
-  aliases: [],
+  aliases: ["s"],
   execute: async(client, message, args, data, db) => {
     const channel = message.member.voice.channel;
     if (!channel) return message.channel.send('You should join a voice channel before using this command!');
