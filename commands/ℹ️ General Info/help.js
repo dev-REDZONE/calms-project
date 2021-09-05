@@ -53,7 +53,7 @@ module.exports = {
 
       const embed = new MessageEmbed()
         .addField("🛠️ Moderation", `\`ban, hide, kick, lock, clear , slowmode, unban, unhide, unlock, \``)
-        .addField("😀 Fun", `\`calc, hack, poke, rps, youtube, slap, kiss\``)
+        .addField("😀 Fun", `\`calc, hack, poke, rps, youtube, slap, kiss, dog, cat, gay\``)
         .addField("🎶 Music", `\`24/7, bassboost, dc, connect, lyrics, np, pause, play, queue, resume, shuffle, skip, stop, volume\``)
         .addField("🎴 Utility", `\`avatar, covid, id, members, roleid, github, servericon, serverinfo, info,\``)
         .addField("ℹ️ General Info", `\`help, invite, ping, serverstats\``)
