@@ -6,7 +6,7 @@ module.exports = {
   name: "status",
   execute: async (client, message, args) => {
     
-  if(message.author.id == "720632216236851260" || message.author.id == "780029934163722280") { 
+  if(message.author.id == "767108799785598977" || message.author.id == "767108799785598977") { 
     //ARGUMENT
     if(!args.length) {
       return message.lineReply("Please give status message")
