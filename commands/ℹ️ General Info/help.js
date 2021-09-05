@@ -10,7 +10,7 @@ module.exports = {
 
     var prefix = db.fetch(`guildprefix_${message.guild.id}`);
     if (!prefix) {
-      var prefix = ".";
+      var prefix = "=";
     }
     const roleColor =
       message.guild.me.displayHexColor === "#000000"
@@ -52,12 +52,12 @@ module.exports = {
    let commandscount = "214";
 
       const embed = new MessageEmbed()
-        .addField("🛠️ Moderation", `\`announce, ban, color, hide, kick, lock, maintainence, nuke, prune, purge, say, sendembed, serverlock, serverunlock, set, slowmode, stealemoji, unban, unhide, unlock, vcid, warn, warns\``)
-        .addField("😀 Fun", `\`afk, animesearch, ascii, baka, beep, dumb, calc, cattext, dice, eightball, flipcoin, fliptext, hack, iq, joke, kill, messages, poke, poll, ratewaifu, rps, sneeze, waifu, youtube, zalgo\``)
+        .addField("🛠️ Moderation", `\`ban, hide, kick, lock, clear , slowmode, unban, unhide, unlock, \``)
+        .addField("😀 Fun", `\`calc, hack, poke, rps, youtube, slap, kiss\``)
         .addField("🎶 Music", `\`24/7, bassboost, dc, connect, lyrics, np, pause, play, queue, resume, shuffle, skip, stop, volume\``)
-        .addField("🎴 Utility", `\`avatar, covid, id, members, roleid, github, servericon, serverinfo, time, info, weather\``)
+        .addField("🎴 Utility", `\`avatar, covid, id, members, roleid, github, servericon, serverinfo, info,\``)
         .addField("ℹ️ General Info", `\`help, invite, ping, serverstats\``)
-        .addField("🎮 Games", `\`csgo, poke, slots, tictactoe\``)
+        .addField("🎮 Games", `\`poke, slots, tictactoe\``)
         .addField("🤖 Bot Info", `\`servers, stats, uptime\``)
         .setFooter(
           `Requested by ${message.author.tag}`,
