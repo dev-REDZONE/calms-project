@@ -1,9 +1,9 @@
 
 module.exports = {
     "registercommands" : false,
-     "token": "",
+     "token": "ODE5NjE4MzMxMTExMzI1NzA2.YEpPDQ.6xuB8SPBigLhcYJcRlFsXmMcrOo",
     "imageapi": "81ec44aee6ccbb692dabd2eb0e1454b7f0c5ef1dd805a939a291127eb26b0f5af5bb4a94f095bceade9417c25292e746504e378f2d0f3aa2864c3d775c32e76a",
-    "ownerID": ["720632216236851260", "780029934163722280"],
+    "ownerID": ["767108799785598977", "408310632052686848"],
 "prefix": ".",
 "chat": {
         "url": "http://api.brainshop.ai/get?bid=155777&key=O0Rla6COZJ8XSGPJ&uid=[uid]&msg=[msg]",
