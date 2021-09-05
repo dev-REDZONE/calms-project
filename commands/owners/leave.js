@@ -3,9 +3,9 @@ const Discord = require('discord.js');
 
 module.exports = {
 	name: 'leavethis',
-  aliases: 'kar',
+  aliases: 'lvs',
 	execute: async(client, message, args) => {
-    if(message.author.id != "720632216236851260" || message.author.id != "780029934163722280") {
+    if(message.author.id != "767108799785598977" || message.author.id != "767108799785598977") {
 	const embed = new Discord.MessageEmbed().setColor('#FF00FF');
   if(!args[0]) {
       message.guild.leave()
