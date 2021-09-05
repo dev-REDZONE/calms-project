@@ -6,7 +6,7 @@ module.exports = (client, guild, message) => {
  
 
   
-    let channel = client.channels.cache.get("832320402868666448")
+    let channel = client.channels.cache.get("879467514814410783")
   
     const embed = new Discord.MessageEmbed()
     .setTitle(`Left Server!`)
