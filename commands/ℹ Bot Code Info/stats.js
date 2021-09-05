@@ -35,9 +35,9 @@ module.exports = {
       .addField(`• Users Count:`, `${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}`, false)
       .addField(`• Channels Count:`, `${client.channels.cache.size}`, false)
       .addField(`• Voice Connections:`, `${client.voice.connections.size}`, false)
-      .addField(`• My Links:`, `[Invite](https://discord.com/api/oauth2/authorize?client_id=879647365206786078&permissions=8&scope=bot) - [Support](https://discord.gg/a8CZbDpFYs)`, false)
+      .addField(`• My Links:`, `[Invite](https://discord.com/api/oauth2/authorize?client_id=819186021686050817&permissions=0&scope=bot) - [Support](https://discord.gg/PQtDaHP9gb)`, false)
       .addField(`• Made With:`, `Node.js V12`, false)
-      .addField(`• Creators:`, `MrRobot#7562 | famN e c h i R404#3980`, false)
+      .addField(`• Creators:`, `<@767108799785598977>`, false)
       .addField(`• Prefix : `, `${prefix}`, false)
       .addField(`• Uptime:`, uptime.join(", "), false)
     message.channel.send(embed);
