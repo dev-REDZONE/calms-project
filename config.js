@@ -16,7 +16,7 @@ module.exports = {
 "api": "AIzaSyD5_NvzoI3zpkgnfoknfVhHS1I5GbNfiu4",
 "youtubeAPI": "AIzaSyD5_NvzoI3zpkgnfoknfVhHS1I5GbNfiu4",
 mainprefix: ".",
-"owner": "MrRobot , famNechir404",
+"owner": "<@767108799785598977>",
 "mongourl": "mongodb+srv://bot-list-lol:SzRpE6eXNegtLRvs@cluster0.jme3y.mongodb.net/nothingxd?retryWrites=true&w=majority",
 "secret": "TKDHwzyl2iieCPgq9mp4O5gttwqEOm1c",
  "dashboardURL": "https://dyno-clone.dhvitop.repl.co",
