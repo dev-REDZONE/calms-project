@@ -5,7 +5,7 @@ module.exports = (client, guild, message) => {
 
 
 
-    let channel = client.channels.cache.get("879467514814410783");
+    let channel = client.channels.cache.get("884416332995653653");
   
     const embed = new Discord.MessageEmbed()
     .setTitle(`New Server!`)
