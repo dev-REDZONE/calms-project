@@ -10,7 +10,7 @@ module.exports = {
 
     var prefix = db.fetch(`guildprefix_${message.guild.id}`);
     if (!prefix) {
-      var prefix = "=";
+      var prefix = ".";
     }
     const roleColor =
       message.guild.me.displayHexColor === "#000000"
