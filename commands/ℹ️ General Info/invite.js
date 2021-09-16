@@ -9,8 +9,8 @@ try {
 const embed = new Discord.MessageEmbed()
   .setTitle("Invite the bot")
   .setColor('RANDOM')
-  .addField("Invite to Discord server", "[Invite the bot here](https://discord.com/api/oauth2/authorize?client_id=819618331111325706&permissions=8&scope=bot)")
-  .addField("Server", `[Join to official server](https://discord.gg/fS9BGAYdX9)`)
+  .addField("Invite to Discord server", "[Invite the bot here](https://discord.com/api/oauth2/authorize?client_id=828921463348264982&permissions=8&scope=bot)")
+  .addField("Server", `[Join to official server](https://discord.gg/fQtvRzeW3a)`)
   .setTimestamp()
 message.author.send({embed})
 
