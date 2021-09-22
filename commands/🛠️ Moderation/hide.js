@@ -1,7 +1,7 @@
 const db = require("quick.db");
 const Discord = require("discord.js")
 module.exports = {
-  name: "hide",
+  name: "hide1",
   aliases: [],
   execute: async(client, message, args) => {
     
