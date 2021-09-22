@@ -1,7 +1,7 @@
 const Discord = module.require("discord.js");
 
 module.exports = {
-  name: "kick",
+  name: "kick1",
   aliases: [],
   execute: async(client, message, args) => {{
     if (message.member.hasPermission("KICK_MEMBERS")) {
