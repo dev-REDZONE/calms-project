@@ -4,7 +4,7 @@
 
 
 module.exports = {
-  name: "slowmode",
+  name: "slowmode1",
   aliases: [],
   execute: async(client, message, args, data, db) => {
    
