@@ -1,7 +1,7 @@
 const Discord = module.require("discord.js");
 
 module.exports = {
-   name: "lock",
+   name: "lock1",
    execute: async(client, message, args) => {
    if (!message.member.hasPermission('MANAGE_SERVER', 'MANAGE_CHANNELS')) {
    return message.channel.send("You don't have enough Permissions")
