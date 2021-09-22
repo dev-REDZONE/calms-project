@@ -52,7 +52,6 @@ module.exports = {
    let commandscount = "214";
 
       const embed = new MessageEmbed()
-        .addField("🛠️ Moderation", `\`kick, slowmode,  \``)
         .addField("😀 Fun", `\`calc, hack, poke, rps, youtube, slap, kiss, dog, cat, gay\``)
         .addField("🎶 Music", `\`24/7, bassboost, dc, connect, lyrics, np, pause, play, queue, resume, shuffle, skip, stop, volume\``)
         .addField("🎴 Utility", `\`avatar, covid, id, members, roleid, github, servericon, serverinfo, info,\``)
