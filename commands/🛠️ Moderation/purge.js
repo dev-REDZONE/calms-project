@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const db = require("quick.db");
 module.exports = {
   name: "purge",
-  aliases: ["clear"],
+  aliases: ["clear1"],
   execute: async(client, message, args) => {
 if (message.member.hasPermission('MANAGE_MESSAGES')) {
 let amount = args[0];
